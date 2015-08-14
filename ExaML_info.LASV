@@ -1,0 +1,68 @@
+
+
+This is ExaML version 3.0.13 released by Alexandros Stamatakis, Andre Aberer, and Alexey Kozlov in June 9 2015.
+
+
+Alignment has 3313 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.68%
+
+ExaML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by ExaML
+ML estimate of 25 per site rate categories
+
+Partition: 0
+Alignment Patterns: 3313
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+ExaML was called as follows:
+
+examl -a -B 10 -c 25 -D -m PSR -n LASV -s LASV.binary -t RAxML_parsimonyTree.LASV 
+
+
+Memory Saving Option: DISABLED
+
+Best rearrangement radius: 5
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.101449
+ML search convergence criterion fast cycle 1->2 Relative Robinson-Foulds 0.043478
+
+Likelihood of best tree: -17062.717131
+
+
+Evaluating 10 other good ML trees
+
+tree 1 likelihood -17062.71713148680282756686210632324218750000000000000000000000000000000000000000000000
+tree 2 likelihood -17062.71713148679918958805501461029052734375000000000000000000000000000000000000000000
+tree 3 likelihood -17062.72175651837824261747300624847412109375000000000000000000000000000000000000000000
+tree 4 likelihood -17062.76351241978045436553657054901123046875000000000000000000000000000000000000000000
+tree 5 likelihood -17062.77169951159521588124334812164306640625000000000000000000000000000000000000000000
+tree 6 likelihood -17062.77826860647473949939012527465820312500000000000000000000000000000000000000000000
+tree 7 likelihood -17062.78052417920116567984223365783691406250000000000000000000000000000000000000000000
+tree 8 likelihood -17062.78290650305643794126808643341064453125000000000000000000000000000000000000000000
+tree 9 likelihood -17062.78421637378050945699214935302734375000000000000000000000000000000000000000000000
+tree 10 likelihood -17062.89101287320227129384875297546386718750000000000000000000000000000000000000000000
+
+
+Other good trees written to file /home/simon/Projects/exploratory-phylodynamics/RAxML_10_goodTrees.LASV
+
+
+Overall Time for 1 Inference 91.890039
+
+Overall accumulated Time (in case of restarts): 91.890039
+
+Likelihood   : -17062.891013
+
+
+Model parameters written to:           /home/simon/Projects/exploratory-phylodynamics/ExaML_modelFile.LASV
+Final tree written to:                 /home/simon/Projects/exploratory-phylodynamics/ExaML_result.LASV
+Execution Log File written to:         /home/simon/Projects/exploratory-phylodynamics/ExaML_log.LASV
+Execution information file written to: /home/simon/Projects/exploratory-phylodynamics/ExaML_info.LASV
