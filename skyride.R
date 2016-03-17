@@ -22,7 +22,7 @@ branching.sampling.times <- function(phy){
   return(branching.sampling.times)
 }
 
-heterochronous.gp.stat <- function(phy){
+heterochronous.gp.stat <- function(phy,thresh=0.00001){
   b.s.times = branching.sampling.times(phy)
   int.ind = which(as.numeric(names(b.s.times)) < 0)
   tip.ind = which(as.numeric(names(b.s.times)) > 0)
@@ -36,7 +36,7 @@ heterochronous.gp.stat <- function(phy){
   #unique.sampling.times = sort(unique(b.s.times[tip.ind]))
   sampling.times = sort((b.s.times[tip.ind]))
   for (i in 2:length(sampling.times)){
-    if ((sampling.times[i]-sampling.times[i-1])<0.1){
+    if ((sampling.times[i]-sampling.times[i-1])<thresh){
       sampling.times[i]<-sampling.times[i-1]}
   }
   unique.sampling.times<-unique(sampling.times)
