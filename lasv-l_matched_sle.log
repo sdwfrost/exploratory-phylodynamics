@@ -1,0 +1,172 @@
+IQ-TREE multicore version 1.6.5 for Linux 64-bit built May  8 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    simon-XPS-13-9370 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s lasv-l_matched_sle.mafft.fasta -m GTR+G4 -nt AUTO -pre lasv-l_matched_sle
+Seed:    266671 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 14 10:28:33 2018
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file lasv-l_matched_sle.mafft.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 72 sequences with 7430 columns, 3314 distinct patterns
+2887 parsimony-informative, 513 singleton sites, 4030 constant sites
+                   Gap/Ambiguity  Composition  p-value
+   1  G502-L-SLE-2009      2.06%    passed     91.42%
+   2  G1180-L-SLE-2010     2.64%    passed     89.48%
+   3  G503-L-SLE-2009      2.03%    passed     95.30%
+   4  LM779-L-SLE-2012     8.20%    passed     60.98%
+   5  G2147-L-SLE-2011     1.41%    passed     98.51%
+   6  G610-L-SLE-2009      2.01%    passed     97.57%
+   7  G693-L-SLE-2009      1.97%    passed     96.15%
+   8  G771-L-SLE-2010      2.01%    passed     97.36%
+   9  G1792-L-SLE-2011     2.84%    passed     87.07%
+  10  G1960-L-SLE-2011     2.46%    passed     98.05%
+  11  G2565-L-SLE-2012     1.86%    passed     99.02%
+  12  G2197-L-SLE-2011     3.06%    passed     99.45%
+  13  LM032-L-SLE-2010     2.14%    passed     98.76%
+  14  G636-L-SLE-2009      1.91%    passed     76.03%
+  15  G2315-L-SLE-2012     5.33%    passed     63.58%
+  16  G2903-L-SLE-2012     3.81%    passed     77.31%
+  17  G3206-L-SLE-2012     2.34%    passed     97.13%
+  18  G676-L-SLE-2009      1.74%    passed     85.99%
+  19  G2405-L-SLE-2012     2.26%    passed     89.57%
+  20  G1190-L-SLE-2010     1.94%    passed     97.59%
+  21  G2944-L-SLE-2012     2.40%    passed     94.66%
+  22  LM765-L-SLE-2012     4.60%    passed     74.26%
+  23  G1727-L-SLE-2011     1.94%    passed     98.40%
+  24  Z0947-L-SLE-2011     1.94%    passed     95.97%
+  25  Z0948-L-SLE-2011     1.99%    passed     96.56%
+  26  G3148-L-SLE-2012     2.81%    passed     97.73%
+  27  G1647-L-SLE-2011     2.44%    passed     92.03%
+  28  G2295-L-SLE-2012     2.11%    passed     88.23%
+  29  G2587-L-SLE-2012     2.23%    passed     88.19%
+  30  G2280-L-SLE-2012     1.83%    passed     99.46%
+  31  G2612-L-SLE-2012     2.13%    passed     96.88%
+  32  G3016-L-SLE-2012     2.07%    passed     99.89%
+  33  G3106-L-SLE-2012     1.98%    passed     99.87%
+  34  G1774-L-SLE-2011     1.97%    passed     99.24%
+  35  G2222-L-SLE-2011     2.23%    passed     98.63%
+  36  LM395-L-SLE-2009     2.09%    passed     97.69%
+  37  Josiah-L-SLE-1976    1.95%    passed     98.52%
+  38  G692-L-SLE-2009      1.94%    passed     97.52%
+  39  G2868-L-SLE-2012     2.01%    passed     80.74%
+  40  G808-L-SLE-2010      1.94%    passed     89.63%
+  41  G1959-L-SLE-2011     1.88%    passed     95.43%
+  42  G3010-L-SLE-2012     2.56%    passed     98.98%
+  43  G2165-L-SLE-2011     1.80%    passed     94.52%
+  44  G2184-L-SLE-2011     1.84%    passed     96.02%
+  45  LM776-L-SLE-2012     4.78%    passed     80.03%
+  46  LM774-L-SLE-2012     5.22%    passed     87.28%
+  47  LM222-L-SLE-2010     2.72%    passed     99.26%
+  48  LM778-L-SLE-2012     3.65%    passed     91.59%
+  49  G2318-L-SLE-2012     2.96%    passed     99.93%
+  50  G733-L-SLE-2010      1.94%    passed     88.04%
+  51  G1618-L-SLE-2011     4.25%    passed     99.57%
+  52  G1646-L-SLE-2011     2.15%    passed     99.62%
+  53  G2554-L-SLE-2012     2.84%    passed     88.17%
+  54  NL-L-SLE-2000        2.42%    passed     95.67%
+  55  G2392-L-SLE-2012     2.13%    passed     44.71%
+  56  G3229-L-SLE-2012     2.27%    passed     69.63%
+  57  G3151-L-SLE-2012     2.52%    passed     60.09%
+  58  G3170-L-SLE-2012     2.71%    passed     53.65%
+  59  G3248-L-SLE-2012     2.69%    passed     57.82%
+  60  G2427-L-SLE-2012     4.20%    passed     82.95%
+  61  G2263-L-SLE-2012     2.85%    passed     96.01%
+  62  G1529-L-SLE-2011     2.69%    passed     65.48%
+  63  G3234-L-SLE-2012     5.72%    passed     90.03%
+  64  G2259-L-SLE-2012     2.99%    passed     82.98%
+  65  G2557-L-SLE-2012     1.75%    passed     66.88%
+  66  G2723-L-SLE-2012     3.74%    passed     81.08%
+  67  G3278-L-SLE-2012     1.97%    passed     58.25%
+  68  G2615-L-SLE-2012     7.12%    passed     73.91%
+  69  G2363-L-SLE-2012     2.13%    passed     91.91%
+  70  G2141-L-SLE-2011     2.27%    passed     38.46%
+  71  G2431-L-SLE-2012     2.48%    passed     84.45%
+  72  G1442-L-SLE-2011     1.87%    passed     79.76%
+****  TOTAL                2.69%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.018 seconds
+
+NOTE: 31 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+34 trees examined
+Threads: 1 / Time: 8.049 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -133797
+Threads: 2 / Time: 4.907 sec / Speedup: 1.640 / Efficiency: 82% / LogL: -133797
+Threads: 3 / Time: 4.686 sec / Speedup: 1.718 / Efficiency: 57% / LogL: -133797
+Threads: 4 / Time: 4.229 sec / Speedup: 1.903 / Efficiency: 48% / LogL: -133797
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -81632.727
+2. Current log-likelihood: -70193.492
+3. Current log-likelihood: -69937.068
+4. Current log-likelihood: -69934.013
+5. Current log-likelihood: -69933.718
+Optimal log-likelihood: -69933.676
+Rate parameters:  A-C: 0.62297  A-G: 33.53284  A-T: 1.88293  C-G: 0.75148  C-T: 24.66676  G-T: 1.00000
+Base frequencies:  A: 0.289  C: 0.237  G: 0.174  T: 0.300
+Gamma shape alpha: 0.298
+Parameters optimization took 5 rounds (2.295 sec)
+Computing ML distances based on estimated model parameters... 0.190 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -69956.360
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.031 second
+Computing log-likelihood of 98 initial trees ... 4.701 seconds
+Current best score: -69933.676
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -69932.918
+Iteration 10 / LogL: -69933.145 / Time: 0h:0m:33s
+Iteration 20 / LogL: -69932.927 / Time: 0h:0m:37s
+Finish initializing candidate tree set (3)
+Current best tree score: -69932.918 / CPU time: 13.156
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -69932.938 / Time: 0h:0m:42s (0h:1m:43s left)
+Iteration 40 / LogL: -69932.954 / Time: 0h:0m:47s (0h:1m:13s left)
+Iteration 50 / LogL: -69933.125 / Time: 0h:0m:52s (0h:0m:54s left)
+Iteration 60 / LogL: -69932.939 / Time: 0h:0m:56s (0h:0m:39s left)
+Iteration 70 / LogL: -69932.920 / Time: 0h:1m:1s (0h:0m:27s left)
+Iteration 80 / LogL: -69933.012 / Time: 0h:1m:6s (0h:0m:17s left)
+Iteration 90 / LogL: -69933.186 / Time: 0h:1m:11s (0h:0m:8s left)
+Iteration 100 / LogL: -69933.266 / Time: 0h:1m:16s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:1m:17s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -69932.918
+Optimal log-likelihood: -69932.918
+Rate parameters:  A-C: 0.62252  A-G: 33.53096  A-T: 1.88583  C-G: 0.75117  C-T: 24.66751  G-T: 1.00000
+Base frequencies:  A: 0.289  C: 0.237  G: 0.174  T: 0.300
+Gamma shape alpha: 0.298
+Parameters optimization took 1 rounds (0.134 sec)
+BEST SCORE FOUND : -69932.918
+Total tree length: 1.869
+
+Total number of iterations: 102
+CPU time used for tree search: 103.729 sec (0h:1m:43s)
+Wall-clock time used for tree search: 52.793 sec (0h:0m:52s)
+Total CPU time used: 159.631 sec (0h:2m:39s)
+Total wall-clock time used: 77.373 sec (0h:1m:17s)
+
+Analysis results written to: 
+  IQ-TREE report:                lasv-l_matched_sle.iqtree
+  Maximum-likelihood tree:       lasv-l_matched_sle.treefile
+  Likelihood distances:          lasv-l_matched_sle.mldist
+  Screen log file:               lasv-l_matched_sle.log
+
+Date and Time: Tue Aug 14 10:29:50 2018
