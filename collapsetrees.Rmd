@@ -1,0 +1,35 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(ape)
+```
+
+```{r}
+ltree <- read.tree("lasv-l_matched_sle.treefile")
+stree <- read.tree("lasv-s_matched_sle.treefile")
+```
+
+
+```{r}
+summary(ltree$edge.length)
+```
+
+```{r}
+summary(stree$edge.length)
+
+```
+
+
+```{r}
+ltree2 <- di2multi(ltree,tol=1e-3)
+stree2 <- di2multi(stree,tol=1e-3)
+```
+
+```{r}
+write.tree(ltree2,"lasv-l_matched_sle.multi.treefile")
+write.tree(stree2,"lasv-s_matched_sle.multi.treefile")
+```
+
